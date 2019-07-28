@@ -633,6 +633,6 @@ function isYoutube(str) {
     return str.toLowerCase().indexOf("youtube.com") > -1 || str.toLowerCase().indexOf("youtu.be") > -1;
 }
 
-client.login(process.eve.BOT_TOKEN);
+client.login(TOKEN);
 
 
