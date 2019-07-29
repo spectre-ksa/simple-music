@@ -4,14 +4,16 @@ const ytdl = require("ytdl-core");
 const convert = require("hh-mm-ss")
 const fetchVideoInfo = require("youtube-info");
 const botversion = require('./package.json').version;
-const simpleytapi = require('simple-youtube-api')
-const youtube = new simpleytapi(YT_API_KEY);
 
 const prefix = "R"; 
 const devs = "434642311591493632";  
 const TOKEN = "NTcxNzM1MjQyNTYyNDcwMDEy.XTnu9A.fWAbIkbtAt-REn8813paol5m4uo" // توكن البوت حق الطيب
 const YT_API_KEY = "AIzaSyDFRGtM6WzFmqAXIgQcCB1_Q8L0NJj7a3M"; // لا تعدله
 ////////////////////////
+
+const simpleytapi = require('simple-youtube-api')
+const youtube = new simpleytapi(YT_API_KEY);
+
 
 
 
