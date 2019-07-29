@@ -1,5 +1,4 @@
 const { Client, RichEmbed } = require("discord.js");
-const {TOKEN, YT_API_KEY, prefix, devs} = require('./config')
 const client = new Client({ disableEveryone: true})
 const ytdl = require("ytdl-core");
 const convert = require("hh-mm-ss")
