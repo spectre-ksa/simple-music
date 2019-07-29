@@ -7,7 +7,7 @@ const botversion = require('./package.json').version;
 
 const prefix = "R"; 
 const devs = "434642311591493632";  
-const TOKEN = "NTcxNzM1MjQyNTYyNDcwMDEy.XTnu9A.fWAbIkbtAt-REn8813paol5m4uo" // توكن البوت حق الطيب
+const TOKEN = "NTcxNzM1MjQyNTYyNDcwMDEy.XT8NQw.Vk6M15vuty1MqvPtr4l_Ovl53ug" // توكن البوت حق الطيب
 const YT_API_KEY = "AIzaSyDFRGtM6WzFmqAXIgQcCB1_Q8L0NJj7a3M"; // لا تعدله
 ////////////////////////
 
