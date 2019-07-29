@@ -8,15 +8,15 @@ const botversion = require('./package.json').version;
 const simpleytapi = require('simple-youtube-api')
 const youtube = new simpleytapi(YT_API_KEY);
 
-const TOKEN: 'NTcxNzM1MjQyNTYyNDcwMDEy.XTnu9A.fWAbIkbtAt-REn8813paol5m4uo',
-const YT_API_KEY: 'AIzaSyDFRGtM6WzFmqAXIgQcCB1_Q8L0NJj7a3M', 
-const prefix: 'R',
-const devs: ['434642311591493632']
-}
+const prefix = "R"; 
+const devs = "434642311591493632";  
+const TOKEN = "NTcxNzM1MjQyNTYyNDcwMDEy.XTnu9A.fWAbIkbtAt-REn8813paol5m4uo" // توكن البوت حق الطيب
+const YT_API_KEY = "AIzaSyDFRGtM6WzFmqAXIgQcCB1_Q8L0NJj7a3M"; // لا تعدله
+////////////////////////
 
 
 
-client.login(TOKEN);
+
 var guilds = {};
 
 /////////////////////////////////////////////////////////////////
@@ -642,6 +642,5 @@ function isYoutube(str) {
     return str.toLowerCase().indexOf("youtube.com") > -1 || str.toLowerCase().indexOf("youtu.be") > -1;
 }
 
+
 client.login(TOKEN);
-
-
